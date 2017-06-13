@@ -21,7 +21,7 @@ You can also find the swift version of this [here](https://github.com/imwcl/WCLS
 
 ## Usage
 
-```oc
+```Objective-C
 
   ZXShineButton *button = [ZXShineButton makeShineButton:^(ZXShineButton *button) {
   
@@ -42,13 +42,13 @@ You can also find the swift version of this [here](https://github.com/imwcl/WCLS
     
     [button addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
 ```
 
 ## **Animation properties Usage**
 
-
 | **Property**            | **Description**                          |
-| ----------------------- | ---------------------------------------- ||
+| ----------------------- | ---------------------------------------- |
 | `fillColor`             | Fill button color                        |
 | `allowRandomColor`      | Allow shine color random                 |
 | `animDuration`          | shine anim duration                      |
