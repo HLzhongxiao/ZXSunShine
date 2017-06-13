@@ -9,16 +9,20 @@ Beautiful radiation effects for iOS
 > **Now ZXSunShine was updated version to 1.X , If you have any question or suggestion , welcome to 
 tell me !**
 
-##introduction
+## introduction
+
 ZXSunShine is an animation of emission effects for IOS, which contains bright effects.
 
 You can also find the swift version of this [here](https://github.com/imwcl/WCLShineButton).
 
-##Demo
+## Demo
+
 ![](DeoGif.gif)
 
-##Usage
+## Usage
+
 ```oc
+
   ZXShineButton *button = [ZXShineButton makeShineButton:^(ZXShineButton *button) {
   
         // Button configuration
@@ -41,6 +45,7 @@ You can also find the swift version of this [here](https://github.com/imwcl/WCLS
 ```
 
 ## **Animation properties Usage**
+
 
 | **Property**            | **Description**                          |
 | ----------------------- | ---------------------------------------- ||
