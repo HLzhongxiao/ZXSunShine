@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663C57CA1EEA32EA00791289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57C91EEA32EA00791289 /* main.m */; };
+		663C57CD1EEA32EA00791289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57CC1EEA32EA00791289 /* AppDelegate.m */; };
+		663C57D51EEA32EA00791289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663C57D41EEA32EA00791289 /* Assets.xcassets */; };
+		663C57D81EEA32EA00791289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663C57D61EEA32EA00791289 /* LaunchScreen.storyboard */; };
+		663C57E51EEA33BE00791289 /* ZXShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57E41EEA33BE00791289 /* ZXShineButton.m */; };
+		663C57E81EEA33EF00791289 /* ZXShineBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57E71EEA33EF00791289 /* ZXShineBundle.m */; };
+		663C57EA1EEA341600791289 /* ZXShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 663C57E91EEA341600791289 /* ZXShineButton.bundle */; };
+		663C57ED1EEA3F6D00791289 /* ZXShineParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57EC1EEA3F6D00791289 /* ZXShineParams.m */; };
+		663C57F01EEA475F00791289 /* ZXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57EF1EEA475F00791289 /* ZXRootViewController.m */; };
+		663C57F31EEA477400791289 /* ZXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57F21EEA477400791289 /* ZXBaseViewController.m */; };
+		663C57F61EEA4D6500791289 /* ZXShineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57F51EEA4D6500791289 /* ZXShineLayer.m */; };
+		663C57F91EEA4D8F00791289 /* ZXShineAngleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57F81EEA4D8F00791289 /* ZXShineAngleLayer.m */; };
+		663C57FC1EEA4D9D00791289 /* ZXShineClickLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C57FB1EEA4D9D00791289 /* ZXShineClickLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		663C57C51EEA32EA00791289 /* ZXSunShine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXSunShine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		663C57C91EEA32EA00791289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		663C57CB1EEA32EA00791289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		663C57CC1EEA32EA00791289 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		663C57D41EEA32EA00791289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		663C57D71EEA32EA00791289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		663C57D91EEA32EA00791289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663C57E31EEA33BE00791289 /* ZXShineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShineButton.h; sourceTree = "<group>"; };
+		663C57E41EEA33BE00791289 /* ZXShineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShineButton.m; sourceTree = "<group>"; };
+		663C57E61EEA33EF00791289 /* ZXShineBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShineBundle.h; sourceTree = "<group>"; };
+		663C57E71EEA33EF00791289 /* ZXShineBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShineBundle.m; sourceTree = "<group>"; };
+		663C57E91EEA341600791289 /* ZXShineButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZXShineButton.bundle; sourceTree = "<group>"; };
+		663C57EB1EEA3F6D00791289 /* ZXShineParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShineParams.h; sourceTree = "<group>"; };
+		663C57EC1EEA3F6D00791289 /* ZXShineParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShineParams.m; sourceTree = "<group>"; };
+		663C57EE1EEA475F00791289 /* ZXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRootViewController.h; sourceTree = "<group>"; };
+		663C57EF1EEA475F00791289 /* ZXRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRootViewController.m; sourceTree = "<group>"; };
+		663C57F11EEA477400791289 /* ZXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXBaseViewController.h; sourceTree = "<group>"; };
+		663C57F21EEA477400791289 /* ZXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXBaseViewController.m; sourceTree = "<group>"; };
+		663C57F41EEA4D6500791289 /* ZXShineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShineLayer.h; sourceTree = "<group>"; };
+		663C57F51EEA4D6500791289 /* ZXShineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShineLayer.m; sourceTree = "<group>"; };
+		663C57F71EEA4D8F00791289 /* ZXShineAngleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShineAngleLayer.h; sourceTree = "<group>"; };
+		663C57F81EEA4D8F00791289 /* ZXShineAngleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShineAngleLayer.m; sourceTree = "<group>"; };
+		663C57FA1EEA4D9D00791289 /* ZXShineClickLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXShineClickLayer.h; sourceTree = "<group>"; };
+		663C57FB1EEA4D9D00791289 /* ZXShineClickLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXShineClickLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663C57C21EEA32EA00791289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663C57BC1EEA32EA00791289 = {
+			isa = PBXGroup;
+			children = (
+				663C57C71EEA32EA00791289 /* ZXSunShine */,
+				663C57C61EEA32EA00791289 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		663C57C61EEA32EA00791289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663C57C51EEA32EA00791289 /* ZXSunShine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663C57C71EEA32EA00791289 /* ZXSunShine */ = {
+			isa = PBXGroup;
+			children = (
+				663C57E21EEA336900791289 /* ZXSunShineGroup */,
+				663C57CB1EEA32EA00791289 /* AppDelegate.h */,
+				663C57CC1EEA32EA00791289 /* AppDelegate.m */,
+				663C57EE1EEA475F00791289 /* ZXRootViewController.h */,
+				663C57EF1EEA475F00791289 /* ZXRootViewController.m */,
+				663C57F11EEA477400791289 /* ZXBaseViewController.h */,
+				663C57F21EEA477400791289 /* ZXBaseViewController.m */,
+				663C57D41EEA32EA00791289 /* Assets.xcassets */,
+				663C57D61EEA32EA00791289 /* LaunchScreen.storyboard */,
+				663C57D91EEA32EA00791289 /* Info.plist */,
+				663C57C81EEA32EA00791289 /* Supporting Files */,
+			);
+			path = ZXSunShine;
+			sourceTree = "<group>";
+		};
+		663C57C81EEA32EA00791289 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				663C57C91EEA32EA00791289 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		663C57E21EEA336900791289 /* ZXSunShineGroup */ = {
+			isa = PBXGroup;
+			children = (
+				663C57E91EEA341600791289 /* ZXShineButton.bundle */,
+				663C57E61EEA33EF00791289 /* ZXShineBundle.h */,
+				663C57E71EEA33EF00791289 /* ZXShineBundle.m */,
+				663C57EB1EEA3F6D00791289 /* ZXShineParams.h */,
+				663C57EC1EEA3F6D00791289 /* ZXShineParams.m */,
+				663C57F71EEA4D8F00791289 /* ZXShineAngleLayer.h */,
+				663C57F81EEA4D8F00791289 /* ZXShineAngleLayer.m */,
+				663C57FA1EEA4D9D00791289 /* ZXShineClickLayer.h */,
+				663C57FB1EEA4D9D00791289 /* ZXShineClickLayer.m */,
+				663C57F41EEA4D6500791289 /* ZXShineLayer.h */,
+				663C57F51EEA4D6500791289 /* ZXShineLayer.m */,
+				663C57E31EEA33BE00791289 /* ZXShineButton.h */,
+				663C57E41EEA33BE00791289 /* ZXShineButton.m */,
+			);
+			path = ZXSunShineGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		663C57C41EEA32EA00791289 /* ZXSunShine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663C57DC1EEA32EA00791289 /* Build configuration list for PBXNativeTarget "ZXSunShine" */;
+			buildPhases = (
+				663C57C11EEA32EA00791289 /* Sources */,
+				663C57C21EEA32EA00791289 /* Frameworks */,
+				663C57C31EEA32EA00791289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXSunShine;
+			productName = ZXSunShine;
+			productReference = 663C57C51EEA32EA00791289 /* ZXSunShine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		663C57BD1EEA32EA00791289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZX;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "忠晓";
+				TargetAttributes = {
+					663C57C41EEA32EA00791289 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 663C57C01EEA32EA00791289 /* Build configuration list for PBXProject "ZXSunShine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 663C57BC1EEA32EA00791289;
+			productRefGroup = 663C57C61EEA32EA00791289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663C57C41EEA32EA00791289 /* ZXSunShine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663C57C31EEA32EA00791289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663C57D81EEA32EA00791289 /* LaunchScreen.storyboard in Resources */,
+				663C57D51EEA32EA00791289 /* Assets.xcassets in Resources */,
+				663C57EA1EEA341600791289 /* ZXShineButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663C57C11EEA32EA00791289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663C57FC1EEA4D9D00791289 /* ZXShineClickLayer.m in Sources */,
+				663C57CD1EEA32EA00791289 /* AppDelegate.m in Sources */,
+				663C57E81EEA33EF00791289 /* ZXShineBundle.m in Sources */,
+				663C57ED1EEA3F6D00791289 /* ZXShineParams.m in Sources */,
+				663C57F01EEA475F00791289 /* ZXRootViewController.m in Sources */,
+				663C57F91EEA4D8F00791289 /* ZXShineAngleLayer.m in Sources */,
+				663C57F31EEA477400791289 /* ZXBaseViewController.m in Sources */,
+				663C57CA1EEA32EA00791289 /* main.m in Sources */,
+				663C57E51EEA33BE00791289 /* ZXShineButton.m in Sources */,
+				663C57F61EEA4D6500791289 /* ZXShineLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		663C57D61EEA32EA00791289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663C57D71EEA32EA00791289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		663C57DA1EEA32EA00791289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		663C57DB1EEA32EA00791289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		663C57DD1EEA32EA00791289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZXSunShine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ZXSunShine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		663C57DE1EEA32EA00791289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZXSunShine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ZXSunShine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663C57C01EEA32EA00791289 /* Build configuration list for PBXProject "ZXSunShine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663C57DA1EEA32EA00791289 /* Debug */,
+				663C57DB1EEA32EA00791289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663C57DC1EEA32EA00791289 /* Build configuration list for PBXNativeTarget "ZXSunShine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663C57DD1EEA32EA00791289 /* Debug */,
+				663C57DE1EEA32EA00791289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 663C57BD1EEA32EA00791289 /* Project object */;
+}
